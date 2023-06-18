@@ -1,9 +1,9 @@
 function getLand(name, pop, url) {
   return /*html*/ `
-    <div onclick="openExternalWebsite('${url}')">
+    <a href="${url}" target="_blank">
       <h3>${name}</h3>
       <span>${pop} Millionen</span>
-    </div>
+    </a>
   `;
 }
 

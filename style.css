@@ -45,13 +45,15 @@ main {
   width: 100%;
 }
 
-#content > div {
+#content > a {
   border: 10px solid rgb(238, 238, 238);
   padding: 10px;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
-#content > div:hover {
+#content > a:hover {
   border: 10px solid rgb(204, 204, 204);
 }
 
