@@ -42,7 +42,3 @@ function generateFilterBar() {
   }
   filterBar.innerHTML += getAllButton();
 }
-
-function openExternalWebsite(url) {
-  window.open(url, "_blank").focus();
-}
