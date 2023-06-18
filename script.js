@@ -2,7 +2,7 @@ let letters = [];
 let data = [];
 
 async function init() {
-  const response = await fetch("./bundesländer.json");
+  const response = await fetch("./bundeslaender.json");
   data = await response.json();
   renderLand();
   generateFilterBar();
